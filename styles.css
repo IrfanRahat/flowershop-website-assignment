@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 .nav-container{
     display: flex;
@@ -35,4 +36,40 @@ li:hover{
 }
 .nav-section ul{
     padding-right: 80px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    text-align: center;
+}
+.banner-text h1, p{
+    text-align: left;
+    padding: 30px;
+
+}
+.banner-text h1{
+    width: 708px;
+    font-size: 80px;
+    color: #272727;
+}
+.banner-text p{
+    width: 634px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60) ; 
+}
+.primary-btn{
+    background-color: #E55473;
+    color: white;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
 }
