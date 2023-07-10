@@ -214,6 +214,7 @@ p {
 .hot-deal h1, p{
     text-align: center;
     font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
     
 }
 .hot-deal-btn{
@@ -222,6 +223,7 @@ p {
 .hot-deal h1{
     font-size: 40px;
     margin-right: 80px;
+    color: #272727;
 }
 .hot-deal-img{
     padding-right: 100px;
@@ -249,6 +251,7 @@ font-weight: 400;
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 .social-img{
     width: 342px;
