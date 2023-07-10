@@ -184,7 +184,7 @@ p {
     text-align: center;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
-    
+
 
 }
 
@@ -211,50 +211,59 @@ p {
     background-color: rgba(229, 84, 115, 0.05);
     color: #2e2e2e;
 }
-.hot-deal h1, p{
+
+.hot-deal h1,
+p {
     text-align: center;
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
-    
+
 }
-.hot-deal-btn{
+
+.hot-deal-btn {
     margin-left: 250px;
 }
-.hot-deal h1{
+
+.hot-deal h1 {
     font-size: 40px;
     margin-right: 80px;
     color: #272727;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     padding-right: 100px;
 }
 
-.socials-container{
-text-align: center;
-margin-top: 120px;
-padding-bottom: 50px;
+.socials-container {
+    text-align: center;
+    margin-top: 120px;
+    padding-bottom: 50px;
 }
-.social-description{
+
+.social-description {
     padding-top: 20px;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
-.social-media-text{
+
+.social-media-text {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.social-images{
+
+.social-images {
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
-.social-img{
+
+.social-img {
     width: 342px;
-height: 396px;
-padding-bottom: 120px;
+    height: 396px;
+    padding-bottom: 120px;
 }
