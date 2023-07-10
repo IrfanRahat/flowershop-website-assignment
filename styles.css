@@ -182,13 +182,42 @@ section .delivery-support-container {
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
 }
-.logo-section{
+
+.logo-section {
     width: 88px;
-height: 88px;
+    height: 88px;
 }
-.logo-description{
+
+.logo-description {
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-size: 20px;
-font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hot-deal-container {
+    width: 1922px;
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    color: #2e2e2e;
+}
+.hot-deal h1, p{
+    text-align: center;
+    font-size: 18px;
+    
+}
+.hot-deal-btn{
+    margin-left: 250px;
+}
+.hot-deal h1{
+    font-size: 40px;
+    margin-right: 80px;
+}
+.hot-deal-img{
+    padding-right: 100px;
 }
