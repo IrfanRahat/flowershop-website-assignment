@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+    max-width: 1900px;
+    max-height: 3800px;
+    ;
 }
 
 .nav-container {
@@ -82,7 +85,7 @@ p {
     color: white;
     padding: 20px 43px;
     gap: 10px;
-    border: none;
+    border: 1px solid #E55473;
     border-radius: 8px;
     font-size: 20px;
     display: flex;
@@ -95,7 +98,7 @@ p {
     height: 800px;
     display: flex;
     align-items: center;
-    margin-top: 113px;
+    margin-top: 167px;
 
 }
 
@@ -172,6 +175,11 @@ p {
     font-weight: 700;
     text-decoration-line: underline;
     padding-top: 32px;
+}
+
+.flower-name:hover {
+    color: #E55473;
+    cursor: pointer;
 }
 
 .delivery-support-container {
@@ -266,4 +274,60 @@ p {
     width: 342px;
     height: 396px;
     padding-bottom: 120px;
+}
+
+.latest-deal-container {
+    background-image: url('./Rectangle 9.png');
+    width: 1400px;
+    margin: auto;
+    height: 400px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    padding-right: 37px;
+}
+
+.latest-deal-text h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    padding-top: 100px;
+    padding-left: 70px;
+
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 70px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.input-email {
+    border-radius: 9px;
+    width: 700px;
+    height: 60px;
+    align-items: center;
+    border: none;
+    text-align: left;
+}
+
+.input-email::placeholder {
+    padding-left: 30px;
+}
+
+.primary-btn:hover {
+    background-color: #ffffff;
+    color: #272727;
+}
+
+.input-email:hover {
+    border: 1px solid #E55473;
 }
