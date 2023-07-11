@@ -4,7 +4,6 @@
     font-family: 'Lato', sans-serif;
     max-width: 1900px;
     max-height: 3800px;
-    ;
 }
 
 .nav-container {
@@ -12,10 +11,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-    background-color: #dab5b536;
+    background-color: rgba(229, 84, 115, 0.10);
     box-shadow: 0px 0px 50px #c7c0c0;
-
-
 }
 
 .nav-section ul,
@@ -26,8 +23,6 @@ li {
     text-align: center;
     font-size: 20px;
     margin: 0px 10px;
-
-
 }
 
 .nav-text-color {
@@ -41,43 +36,38 @@ li:hover {
 
 .nav-container,
 h1 {
-    padding-left: 80px;
-
+    padding-left: 150px;
 }
 
 .nav-section ul {
-    padding-right: 80px;
+    padding-right: 250px;
 }
 
 .banner-container {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
     align-items: center;
     text-align: center;
-}
-
-.banner-text h1,
-p {
-    text-align: left;
-    padding: 20px;
-    font-weight: 800;
-
+    padding: 70px 30px 0px 30px;
 }
 
 .banner-text h1 {
+    font-weight: 900;
     width: 708px;
     font-size: 80px;
     color: #272727;
+    text-align: left;
+    padding: 20px;
 }
 
-.banner-text p {
+.banner-description {
     width: 634px;
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
     text-align: left;
+    padding: 20px;
 }
 
 .primary-btn {
@@ -91,6 +81,7 @@ p {
     display: flex;
     text-align: center;
     margin-left: 18px;
+    margin-top: 20px;
 }
 
 .banner-img {
@@ -98,11 +89,9 @@ p {
     height: 800px;
     display: flex;
     align-items: center;
-    margin-top: 167px;
-
 }
 
-.featured-flower-header h2 {
+.featured-flower-container h2 {
     margin-top: 170px;
     text-align: center;
     font-size: 40px;
@@ -110,7 +99,7 @@ p {
     color: #272727;
 }
 
-.featured-flower-header p {
+.featured-flower-container p {
     padding-top: 25px;
     margin-bottom: 50px;
     color: rgba(39, 39, 39, 0.60);
@@ -119,10 +108,10 @@ p {
     font-weight: 400;
 }
 
-.featured-flowers-container {
+.featured-flowers {
     display: flex;
     justify-content: space-around;
-    padding: 0px 240px;
+    padding: 0px 200px;
 }
 
 .first-flower-border {
@@ -192,8 +181,6 @@ p {
     text-align: center;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
-
-
 }
 
 .logo-section {
@@ -209,7 +196,6 @@ p {
 }
 
 .hot-deal-container {
-    width: 1922px;
     height: 620px;
     display: flex;
     justify-content: space-evenly;
@@ -218,24 +204,29 @@ p {
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     color: #2e2e2e;
+    padding: 0px 200px;
 }
 
-.hot-deal h1,
-p {
+.hot-deal-description {
     text-align: center;
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
-
+    padding: 20px;
 }
 
 .hot-deal-btn {
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.hot-deal h1 {
+.hot-deal-title {
+    text-align: center;
     font-size: 40px;
-    margin-right: 80px;
-    color: #272727;
+    font-weight: 800;
+    color: #313030;
+    margin-right: 160px;
 }
 
 .hot-deal-img {
@@ -245,7 +236,7 @@ p {
 .socials-container {
     text-align: center;
     margin-top: 120px;
-    padding-bottom: 50px;
+    padding: 50px 200px;
 }
 
 .social-description {
@@ -259,6 +250,7 @@ p {
 .social-media-text {
     color: #272727;
     text-align: center;
+    margin-right: 100px;
     font-size: 40px;
     font-weight: 800;
 }
@@ -267,7 +259,6 @@ p {
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 .social-img {
@@ -291,12 +282,10 @@ p {
     font-size: 40px;
     font-weight: 800;
     color: #272727;
-    padding-top: 100px;
-    padding-left: 70px;
-
+    padding: 100px 0px 20px 70px;
 }
 
-.deal-description {
+.latest-deal-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -313,7 +302,7 @@ p {
 .input-email {
     border-radius: 9px;
     width: 700px;
-    height: 60px;
+    height: 70px;
     align-items: center;
     border: none;
     text-align: left;
@@ -321,6 +310,10 @@ p {
 
 .input-email::placeholder {
     padding-left: 30px;
+}
+
+.btn-subscribe {
+    margin: 0px 0px 0px 20px;
 }
 
 .primary-btn:hover {
@@ -332,26 +325,32 @@ p {
     border: 1px solid #E55473;
 }
 
-.footer-section{
+.footer-container {
     color: #ffffff;
     background-color: #111010;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-left: 30px;
 }
-.footer-title{
-    font-size: 40px;
+
+.footer-title {
+    font-size: 48px;
     text-align: center;
     padding-top: 100px;
-    padding-right: 50px;
-    
+    padding-right: 120px;
 }
-.footer-description{
+
+.footer-description {
+    text-align: center;
     font-size: 18px;
     color: #ffffff;
     font-weight: lighter;
     padding-top: 25px;
-    
-
 }
-.footer-copyright-section{
+
+.footer-copyright-section {
+    text-align: center;
     color: white;
     font-weight: lighter;
     font-size: small;
